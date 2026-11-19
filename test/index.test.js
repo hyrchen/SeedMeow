@@ -278,7 +278,7 @@ test('更新检查使用 SeedMeow 仓库且正确比较版本，网络失败只�
     requestedUrl = url;
     return Response.json({ tag_name: 'v9.0.0', html_url: 'https://example.com/release' });
   });
-  assert.equal(requestedUrl, 'https://api.github.com/repos/sunnyhmz7010/SeedMeow/releases/latest');
+  assert.equal(requestedUrl, 'https://api.github.com/repos/hyrchen/SeedMeow/releases/latest');
   assert.deepEqual(newer, { latestVersion: '9.0.0', url: 'https://example.com/release' });
   assert.equal(await checkUpdate(logger, VERSION, async () => new Response('', { status: 503 })), null);
   assert.match(warnings[0], /503/);

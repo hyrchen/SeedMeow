@@ -6,7 +6,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sunnyhmz7010/SeedMeow.git"
+    "url": "https://github.com/hyrchen/SeedMeow.git"
   },
   "engines": {
     "node": ">=24"

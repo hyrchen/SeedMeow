@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sunnyhmz7010/SeedMeow/releases"><img src="https://img.shields.io/github/v/release/sunnyhmz7010/SeedMeow?label=Release&amp;color=3b82f6" alt="Release" /></a>
-  <a href="https://github.com/sunnyhmz7010/SeedMeow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/sunnyhmz7010/SeedMeow?color=10b981" alt="License" /></a>
+  <a href="https://github.com/hyrchen/SeedMeow/releases"><img src="https://img.shields.io/github/v/release/hyrchen/SeedMeow?label=Release&amp;color=3b82f6" alt="Release" /></a>
+  <a href="https://github.com/hyrchen/SeedMeow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/hyrchen/SeedMeow?color=10b981" alt="License" /></a>
 </p>
 
 ---
@@ -57,7 +57,7 @@ docker run -d \
   -e SB_MEOW_NICKNAME="你的MeoW昵称" \
   -e SB_KEYWORDS="VPS,优惠" \
   -v seedmeow-data:/app/data \
-  ghcr.io/sunnyhmz7010/seedmeow:latest
+  ghcr.io/hyrchen/seedmeow:latest
 ```
 
 也可以使用 Docker Compose：根目录已提供 `compose.yaml`，执行以下命令即可启动：

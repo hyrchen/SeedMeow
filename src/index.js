@@ -10,7 +10,7 @@ import { StateStore } from './state.js';
 
 const require = createRequire(import.meta.url);
 const VERSION = require('../package.json').version;
-const RELEASE_URL = 'https://api.github.com/repos/sunnyhmz7010/SeedMeow/releases/latest';
+const RELEASE_URL = 'https://api.github.com/repos/hyrchen/SeedMeow/releases/latest';
 
 export function createLogger(name = 'SeedMeow') {
   const write = (level, message) => console[level](`[${new Date().toISOString()}] [${name}] ${message}`);
